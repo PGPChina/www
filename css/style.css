@@ -1,9 +1,6 @@
-/* @import url('source-sans-pro'); */
-
 @import url('../font/baskerville/loader.css');
 
-/* h3:before { content: '\A'; } */
-
+/* login modal dialog */
 
 .login form {
     margin-top: 5em;
@@ -38,10 +35,6 @@
    display: none;
 }
 
-.lit {
-    background-color: yellow;
-}
-
 .container.banner {
     padding-top: 3em;
     padding-left: 6em;
@@ -50,37 +43,26 @@
     background: linear-gradient(0deg, white, red 10%) no-repeat;
 }
 
-.logo-row {
-}
-
-.button-row {
-    margin-top: 5em;
-}
 
 .logo {
     width: 150px;
     height: 150px;
     margin-right: 1em;
-    margin-top: .7em;
-}
-
-.row.spaceabove {
-   margin-top: 2em;
+    margin-top: .26em;
 }
 
 .title {
     color: white;
     font-family: "libre_baskervilleitalic", serif;
     font-style: italic;
-    font-size: 96px;
+    font-size: 85px;
     line-height: 1;
     margin-bottom: 1em;
 }
 
-
 .title .sub {
     margin-top: -.3em;
-    font-size: .48em;
+    font-size: .45em;
 }
 
 .title .sub-china {
@@ -100,4 +82,12 @@
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+.row.spaceabove {
+   margin-top: 2em;
+}
+
+.button-row {
+    margin-top: 5em;
 }
