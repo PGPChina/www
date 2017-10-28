@@ -1,12 +1,18 @@
 /* @import url('source-sans-pro'); */
 
+@import url('../font/baskerville/loader.css');
 
-body{
+
+
+.container.banner {
+    padding-top: 3em;
+    padding-left: 6em;
+    width: 100%;
+    margin-bottom: 3em;
     background: linear-gradient(0deg, white, red 10%) no-repeat;
 }
 
 .logo-row {
-    margin-top: 5em;
 }
 
 .button-row {
@@ -20,14 +26,17 @@ body{
     margin-top: .7em;
 }
 
+.row.spaceabove {
+   margin-top: 2em;
+}
 
 .title {
     color: white;
-    font-family: "Baskerville", sans-serif;
-    font-style: italic;
+    font-family: "libre_baskervilleitalic", serif;
     font-weight: 300;
     font-size: 96px;
     line-height: 1;
+    margin-bottom: 1em;
 }
 
 
