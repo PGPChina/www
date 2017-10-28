@@ -1,0 +1,56 @@
+/* @import url('source-sans-pro'); */
+
+
+body{
+    background: linear-gradient(0deg, white, red 10%) no-repeat;
+}
+
+.logo-row {
+    margin-top: 5em;
+}
+
+.button-row {
+    margin-top: 5em;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 1em;
+    margin-top: .7em;
+}
+
+
+.title {
+    color: white;
+    font-family: "Baskerville", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 1;
+}
+
+
+.title .sub {
+    margin-top: -.3em;
+    font-size: .48em;
+}
+
+.title .sub-china {
+    margin-top: .2em;
+    font-size: .40em;
+}
+
+.gold {
+    background-image: -webkit-gradient( linear, left top, left bottom,
+    color-stop(0.0, #F6B500),
+    color-stop(0.5, #ff2),
+    color-stop(1, #fff) ); 
+    background-image: gradient( linear, left top, left bottom,
+    color-stop(0.0, #F6B500),
+    color-stop(0.5, #ff2),
+    color-stop(1, #fff) ); 
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
