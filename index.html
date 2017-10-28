@@ -10,10 +10,26 @@
    <link rel="stylesheet" href="css/bootstrap.min.css"/>
    <script src="js/wufoo.js"></script>
    <script src="js/tether.min.js"></script>
+   <script src="js/js.cookie.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
   </head>
 
-<body>
+  <body>
+    <div class="container login">
+      <form>
+	 <div class="form-group">
+	   <label for="user">User</label>
+	   <input type="text" class="form-control" id="user" placeholder="User">
+	 </div>
+	 <div class="form-group">
+	   <label for="password">Password</label>
+	   <input type="password" class="form-control" id="password" placeholder="Password">
+	 </div>
+	 <button class="btn btn-primary">login</button>
+      </form>
+    </div>
+    <div class="main protected">
   <div class="container banner">
     <div class="row logo-row">
 	<img class="logo" src="pix/pgp-logo-only-color-transp.png"/>
@@ -82,6 +98,7 @@
 	Fill out my <a href="https://matinee.wufoo.com/forms/zrq0be80sssidk">online form</a>.
       </div>
     </div>
+  </div>
   </div>
 
 </body>
