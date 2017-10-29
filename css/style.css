@@ -88,6 +88,20 @@
    margin-top: 2em;
 }
 
+.mugshot {
+    margin-bottom: 1em;
+}
+
+.mugshot.li {
+    height: 200px;
+    width: 217px;
+}
+
+.mugshot.chou {
+    height: 200px;
+    width: 167px;
+}
+
 .button-row {
     margin-top: 5em;
 }
