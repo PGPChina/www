@@ -1,44 +1,5 @@
 @import url('../font/baskerville/loader.css');
 
-/* login modal dialog */
-
-.wide_form {
-    width: 800px;
-}
-
-.login form {
-    margin-top: 5em;
-    padding: 5em;
-}
-
-.flash {
-  -moz-animation: flash 1s ease-out;
-  -moz-animation-iteration-count: 1;
-
-  -webkit-animation: flash 1s ease-out;
-  -webkit-animation-iteration-count: 1;
-
-  -ms-animation: flash 1s ease-out;
-  -ms-animation-iteration-count: 1;
-}
-
-
-@keyframes flash {
-    0% { background-color: transparent; }
-    50% { background-color: #fbf8b2; }
-    100% { background-color: transparent; }
-}
-
-@-webkit-keyframes flash {
-    0% { background-color: transparent; }
-    50% { background-color: #fbf8b2; }
-    100% { background-color: transparent; }
-}
-
-.protected {
-   display: none;
-}
-
 .container.banner {
     padding-top: 3em;
     padding-left: 6em;
@@ -88,8 +49,8 @@
     background-clip: text;
 }
 
-.row.spaceabove {
-   margin-top: 2em;
+.row h3 {
+   margin-top: 1em;
 }
 
 .mugshot {
@@ -109,3 +70,9 @@
 .button-row {
     margin-top: 5em;
 }
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #EEE;
+    }
