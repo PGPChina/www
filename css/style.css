@@ -2,6 +2,10 @@
 
 /* login modal dialog */
 
+.wide_form {
+    width: 800px;
+}
+
 .login form {
     margin-top: 5em;
     padding: 5em;
