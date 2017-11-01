@@ -31,8 +31,10 @@
 }
 
 .title .sub-china {
+    font-family: "libre_baskervilleregular", serif;
     margin-top: .2em;
     font-size: .40em;
+    font-style: normal;
 }
 
 .gold {
